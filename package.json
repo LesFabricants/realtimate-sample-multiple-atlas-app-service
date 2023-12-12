@@ -1,0 +1,19 @@
+{
+  "name": "realtimate-sample-multiple-atlas-app-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "realtimate build --source src/$APP --destination apps/$APP",
+    "dev": "realtimate watch -v -a apps",
+    "start": "realtimate run -a apps/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "mongodb": "^6.3.0",
+    "typescript": "^5.3.3"
+  }
+}
